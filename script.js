@@ -5,7 +5,7 @@ console.log("socorro!")
 /*
 
     String
-    Int
+    number
     Bollean
 
     null
@@ -14,13 +14,32 @@ console.log("socorro!")
 
 //variaveis
 
-var x
-x = 10
+// var x
+// x = 10
 
-console.log(typeof(x))
+// console.log(typeof(x))
 
-x = 'tocomsono'
-console.log(typeof(x))
+// x = 'tocomsono'
+// console.log(typeof(x))
 
-x = false
-console.log(typeof(x))
+// x = false
+// console.log(typeof(x))
+
+// x = new Date  //new cria um novo objeto 
+
+
+
+// var y             //escopo global
+// let w             //mais interna, nao pode ser usada pra tudo
+// const e = batatinha //precisa inicializar
+
+
+let n = 10
+console.log(n / 2)
+console.log(n * 2)
+console.log(n - 2)
+console.log(n + 2)
+console.log( Number(n) + 2)
+
+
+ 
