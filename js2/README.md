@@ -74,7 +74,9 @@ somar()
 -------------------------------------
 
 
-
+variavel é uma referencia de memoria
+let = x --> um espaço da memoria passa as ser lida como 'x'
+const --> armazenar uma função dentro dela
 
 
 
