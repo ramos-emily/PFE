@@ -13,7 +13,6 @@ if (notaFinal >= 6.0) {
     console.log(`O aluno ${nome} foi aprovado!`)
 }
 
-
 console.log('\n')
 console.log('-> Instrução Condicional Composta')
 
@@ -31,6 +30,9 @@ console.log('-> Operador ternário')
 
 notaFinal = 5
 
+
+//operador ternario: if igual o de antes
+//voce atribui um valor, atravez de uma condição, se for vdd executa o 1 se nn o 2
 let situacao = notaFinal >= 6.0 ? 'aprovado!' : 'reprovado!'
 
 console.log(`O aluno ${nome} foi ${situacao}`)
@@ -81,7 +83,6 @@ if (frequencia < 50) {
 }
 
 
-
 console.log('\n')
 console.log('-> Instrução Condicional Escolha..Caso')
 
@@ -95,7 +96,7 @@ let opcao = 2
 
 switch (opcao) {
 
-    case 1:
+    case 1: //se talala
         console.log(`Nome: ${nome}`)    
         break    
 
@@ -111,6 +112,6 @@ switch (opcao) {
         console.log(`Frequencia: ${frequencia}`)    
         break    
 
-    default:
+    default: //else
         console.log('Opção inválida!')    
 }

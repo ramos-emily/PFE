@@ -18,3 +18,5 @@ console.log('Lista 01')
    -> Entre 25 até 30 é considerado “Acima do peso”.
    -> Acima de 30 é considerado “Obeso”.
 */
+
+prompt

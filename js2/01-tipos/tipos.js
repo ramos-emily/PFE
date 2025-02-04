@@ -89,7 +89,7 @@ console.log( Number(n) + 2) // de string para number
 let valor = 10
 console.log( String(valor) + 2) // de number para string
 
-
+//IMPORTANTE!!!
 console.log('-> Concatenação e Template Literals (ou Template Strings)')
 
 // Declaração de variáveis
@@ -105,6 +105,7 @@ console.log("Jantar: " + jantar + "\nGarçom: " + garcom + "\nTotal: " + total)
 
 // Template Literals (ou Template Strings) utiliza crases como delimitadores e possibilita passagens de parâmetros
 console.log(`Jantar: ${jantar} \nGarçom: ${garcom} \nTotal: ${total}`)
+// sifrao e caracter de entrada de parametro
 
 
 // Entrada e Saída de dados
@@ -118,7 +119,7 @@ console.log(`Jantar: ${jantar} \nGarçom: ${garcom} \nTotal: ${total}`)
 
 console.log('-> Exemplo restaurante com as funções prompt() e alert()')
 
-// Entrada
+// Entrada prompty é a caixinha que aparece em cima da pagina (ELA LE TUDO COMO STRING!! PRECISA SER CONVERTIDA)
 jantar = Number( prompt('Informe o valor do jantar') )
 
 // Processamento
