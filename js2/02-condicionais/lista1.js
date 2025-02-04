@@ -19,4 +19,12 @@ console.log('Lista 01')
    -> Acima de 30 é considerado “Obeso”.
 */
 
-prompt
+idade = 30
+
+console.log('Atleta tem 30 anos, logo ')
+
+if (idade >= 18){
+   console.log('grande')
+}else{
+   console.log('pequeno')
+}
